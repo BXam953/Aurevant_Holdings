@@ -10,6 +10,7 @@ const raleway = Raleway({
 export const metadata = {
   title: "Aurevant Holdings",
   description: "Welcome to Aurevant Holdings",
+  
 };
 
 export default function RootLayout({ children }) {
