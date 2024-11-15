@@ -14,12 +14,10 @@ export default function About(){
 
                 <div className=" md:flex md:flex-col justify-between w-full lg:h-full h-full gap-10">
                     <div className=" md:text-xl">
-                    With over two decades of expertise spanning Europe, Africa, and the Middle East, Aurevant has driven transformative growth for companies, with a strategic focus on high-potential Middle Eastern markets like Saudi Arabia and the UAE. Our founder and CEO brings extensive leadership experience from top global consumer brands, having held senior roles across Europe and MEA, including as General Manager and Regional Head.
-                    . 
+                    Aurevant was founded by Adil Paracha, a seasoned leader with over two decades of international experience across Europe, Africa, and the Middle East. Adil has a proven track record of driving transformative growth for global consumer brands, including Reckitt, Kimberly-Clark, Beiersdorf, and Galderma, with a specific focus on high-potential markets like Saudi Arabia and the UAE. Having held senior leadership positions, such as General Manager of Saudi Arabia and Regional Head across multiple regions, Adil brings deep expertise in navigating complex business landscapes. 
                     <br />
                     <br />
-                    Our CEO leverages this deep international background to empower SMEs in expanding their market reach and thriving in competitive Middle Eastern landscapes. Aurevant’s offerings include strategic business planning and commercial execution, executive advisory and coaching, route-to-market strategies, transformation and restructuring support, and integrated brand development services.
-                    . 
+                    As our CEO, Adil channels this vast experience to help SMEs expand their footprint and achieve success in the competitive Middle Eastern markets. Aurevant provides a full range of services, including strategic business planning and execution, executive advisory and coaching, market entry and route-to-market strategies, transformation and restructuring support, and integrated brand development services. 
                     <br />
                     <br />
                     </div>
