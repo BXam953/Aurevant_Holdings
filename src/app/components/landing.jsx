@@ -3,16 +3,28 @@ import LandingPic from '../media/Puzzle.png'
 
 export default function Landing(){
     return(
-        <div className=" flex flex-col py-5 h-[100% md:flex-row md:justify-between md:items-center md:align-middle">
-            <div className="flex flex-col">
-                <h1 className=" text-3xl lg:text-4xl font-light text-[#DCB64B]">Aurevant Holdings</h1>
-                <h2 className=" text-5xl w-[5rem] lg:w-[50vw]  lg:text-6xl font-bold">Creating Exceptional Customer Value</h2>
-                <br />
-                <a className="p-2 bg-[#DCB64B] max-w-[10rem] rounded-md text-center text-black font-bold" href="">Get in Touch</a>
-            </div>
-            <div>
-                <Image alt="image" src={LandingPic} width={500} className="my-auto w-[500px] lg:w-[1000px]"/>
-            </div>
-        </div>
+        // <div className="relative flex flex-col py-5 h-[100%] md:justify-center md:items-center md:align-middle">
+<div className="flex h-[100%] w-[100%] justify-center align-middle m-auto items-center relative">
+    {/* Text Container */}
+    <div className="flex flex-col text-center items-center z-10">
+        <h1 className="text-3xl lg:text-4xl font-light text-[#DCB64B]">Aurevant Holdings</h1>
+        <h2 className="text-5xl lg:text-7xl font-bold w-[80%] lg:w-[50vw]">Creating Exceptional Customer Value</h2>
+        <br />
+        <a
+            className="flex justify-center items-center aspect-[3] p-6 bg-[#DCB64B] max-w-[10rem] rounded-md text-center text-black font-bold"
+            href="#"
+        >
+            Get in Touch
+        </a>
+    </div>
+    {/* Background Image */}
+    {/* <Image
+        alt="Landing"
+        src={LandingPic}
+        width={500}
+        className="absolute inset-0 m-auto opacity-30 w-[300px] lg:w-[600px]"
+    /> */}
+</div>
+
     )
 }
