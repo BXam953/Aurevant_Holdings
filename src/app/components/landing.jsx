@@ -3,7 +3,7 @@ import LandingPic from '../media/Puzzle.png'
 
 export default function Landing() {
     return (
-        <div className="flex h-[100%] w-[100%] justify-center m-auto items-center align-middle text-center relative">
+        <div className="flex h-[100%] w-[100%] justify-center m-auto items-center align-middle text-center relative z-10">
             {/* Text Container */}
             <div className="flex flex-col justify-center text-center items-center align-middle px-4 sm:px-8">
                 

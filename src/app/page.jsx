@@ -10,8 +10,8 @@ export default function Home() {
   <section className="flex flex-col justify-between gap-36">
     
     <PageTemplate classes="h-screen" id="home">
-        <Navbar className="z-100"/>
-        <Landing className="z-10" />
+        <Navbar/>
+        <Landing/>
     </PageTemplate>
     <PageTemplate classes=" min-h-screen md:h-screen" id="about">
       <About />
