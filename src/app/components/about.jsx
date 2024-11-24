@@ -8,7 +8,7 @@ export default function About(){
 
             <h1 className=" text-3xl lg:text-4xl font-light text-white">About</h1>
             
-            <div className="flex flex-row gap-5">
+            
             <Image className="h-full w-auto rounded-lg" alt="image" src={papa_pic} />
 
             <div className=" md:text-xl w-auto">
@@ -19,7 +19,7 @@ export default function About(){
                     <br />
                     <br />
             </div>
-            </div>
+            
 
             <div className="grid grid-cols-2 md:grid-cols-4 md:grid-rows-1 gap-10 max-w-full">
                         <AboutWidget 
