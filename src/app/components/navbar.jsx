@@ -1,5 +1,5 @@
 "use client"
-import Logo from '../media/Logo.svg'
+import Logo from '../media/AUREVANT_LOGO.svg'
 import Image from "next/image"
 import Link from 'next/link';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -20,10 +20,8 @@ export default function Navbar(){
     
     return(
         <div className="flex justify-between h-[3.5rem] items-center">
-            <Link href="#home"><Image className='h-[3.5rem] w-[3.5rem]'
-            src={Logo}
-            alt='logo'
-            /></Link>
+            <Link href="#home">
+            <Image width={200} src={Logo} alt='logo'/></Link>
 
             <div className='hidden md:flex list-none gap-10 underline-offset-4'>
                 <li className='hover:underline'><Link href="#home">Home</Link></li>

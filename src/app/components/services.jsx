@@ -7,37 +7,68 @@ import ServicesWidget from "./servicesWidg"
 
 export default function Services({chilren}){
     return(
-        <div className="h-full w-full flex flex-col justify-between">
-            <h1 className=" text-3xl lg:text-4xl font-light text-white">Services</h1>
+        <div className="h-full w-full flex flex-col justify-center gap-5">
+            <h1 className=" text-3xl lg:text-3xl font-light text-white">Aurevant offers a comprehensive 
+                    suite of services designed to meet 
+                    the diverse needs of our clients, 
+                    including:</h1>
 
             <div className=" grid grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2 gap-5">
-                <div className=" aspect-[3/2] w-full rounded-md h-full bg-transparent border-[#DCB64B] border-2 p-5 text-lg">
+                {/* <div className=" aspect-[3/2] w-full rounded-md h-full bg-transparent border-[#DCB64B] border-2 p-5 text-lg text-yellow-500">
                     Aurevant offers a comprehensive 
                     suite of services designed to meet 
                     the diverse needs of our clients, 
                     including:
-                </div>
+                </div> */}
+                {/* <div className=" aspect-[3/2] w-full rounded-md h-full bg-transparent text-lg text-yellow-500 flex flex-col gap-5">
+                <h1 className=" text-3xl lg:text-4x font-bold text-yellow-500">Services</h1>
+                <div className=" aspect-[3/2] w-full rounded-md h-full bg-transparent text-lg text-white">
+                    Aurevant offers a comprehensive 
+                    suite of services designed to meet 
+                    the diverse needs of our clients, 
+                    including:
+                </div> 
+                </div> */}
+
+                {/* <ServicesWidget 
+
+                title="Services"
+                body="Aurevant offers a comprehensive 
+                    suite of services designed to meet 
+                    the diverse needs of our clients, 
+                    including:"
+                /> */}
+                
                 <ServicesWidget 
                 icon={FaRegLightbulb}
-                title="Strategic Planning"
+                title="Strategic Business Planning"
                 body="Comprehensive business planning 
                     and execution strategies for 
                     sustainable growth and success."
                 />
-               <ServicesWidget 
+                <ServicesWidget 
+                icon={FaRegLightbulb}
+                title="Interim Management"
+                body="Comprehensive business planning 
+                    and execution strategies for 
+                    sustainable growth and success."
+                />
+                
+               
+                <ServicesWidget 
+                icon={FaChartLine}
+                title="Commercial Exectution and Route to Market Planning"
+                body="Tailored go-to-market strategies 
+                        focused on opportunities in Saudi-
+                        Arabia and the UAE."
+                />
+                <ServicesWidget 
                 icon={MdPersonPin}
-                title="Executive Coaching"
+                title="Executive Mentoring"
                 body="Personalized advisory services 
                         and coaching to enhance
                         leadership and organizational 
                         effectiveness."
-                />
-                <ServicesWidget 
-                icon={FaChartLine}
-                title="Market Strategy"
-                body="Tailored go-to-market strategies 
-                        focused on opportunities in Saudi-
-                        Arabia and the UAE."
                 />
                 <ServicesWidget 
                 icon={HiOutlinePresentationChartBar}

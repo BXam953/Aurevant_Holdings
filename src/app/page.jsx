@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
 import PageTemplate from "./components/pageTemplate";
 import Landing from "./components/landing";
-import About from "./components/about";
+import About from "./components/about backup";
 import Services from "./components/services";
 import Contact from "./components/contact";
 
@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar />
         <Landing className="" />
     </PageTemplate>
-    <PageTemplate classes=" min-h-screen md:h-screen " id="about">
+    <PageTemplate classes=" min-h-screen md:h-screen" id="about">
       <About />
     </PageTemplate>
     <PageTemplate classes="min-h-screen md:h-screen" id="services">

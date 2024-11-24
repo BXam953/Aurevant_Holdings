@@ -6,11 +6,8 @@ export default function Landing() {
         <div className="flex h-[100%] w-[100%] justify-center m-auto items-center align-middle text-center relative">
             {/* Text Container */}
             <div className="flex flex-col justify-center text-center items-center align-middle z-10 px-4 sm:px-8">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light text-[#DCB64B]">
-                    Aurevant Holdings
-                </h1>
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold sm:w-[80%] ">
-                {/* <h2 className="md:text-6xl text-4xl  font-bold"> */}
+                
+                <h2 className=" text-5xl">
                     Creating Exceptional Customer Value
                 </h2>
                 <br />
