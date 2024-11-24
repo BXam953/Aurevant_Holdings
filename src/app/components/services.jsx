@@ -49,9 +49,7 @@ export default function Services({chilren}){
                 <ServicesWidget 
                 icon={FaRegLightbulb}
                 title="Interim Management"
-                body="Comprehensive business planning 
-                    and execution strategies for 
-                    sustainable growth and success."
+                body="Choose from a range of contract options from 3 months to permanent engagement tailored to your business needs"
                 />
                 
                
