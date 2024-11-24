@@ -55,7 +55,7 @@ export default function Services({chilren}){
                
                 <ServicesWidget 
                 icon={FaChartLine}
-                title="Commercial Exectution and Route to Market Planning"
+                title="Commercial Execution and Route to Market Planning"
                 body="Tailored go-to-market strategies 
                         focused on opportunities in Saudi-
                         Arabia and the UAE."
