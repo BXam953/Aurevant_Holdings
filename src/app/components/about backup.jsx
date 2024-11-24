@@ -14,7 +14,7 @@ export default function About(){
 
                 <div className=" md:flex md:flex-col justify-between w-full lg:h-full h-full gap-10">
                     <div className=" md:text-xl">
-                    Aurevant was founded by Adil Paracha, a seasoned  leader with over 20 years of experience driving growth for global consumer companies like Reckitt, Kimberly-Clark Corporation, Beiersdorf A.G. and Galderma S.A in across Europe, Africa, and the Middle East, including Saudi Arabia and the UAE. Having held senior roles such as General Manager Saudi Arabia, Managing Director Middle East West Asia and Regional President META, Adil brings deep expertise in navigating complex business environments.
+                    Aurevant was founded by Adil Paracha, a seasoned  leader with over 20 years of experience driving growth for global consumer companies like Reckitt, Kimberly-Clark Corporation, Beiersdorf A.G. and Galderma S.A across Europe, Africa, and the Middle East. Having held senior roles such as General Manager Saudi Arabia, Managing Director Middle East West Asia and Regional President META, Adil brings deep expertise in navigating complex business environments.
                     <br />
                     <br />
                     As CEO, Adil leverages his experience to help SMEs thrive in the Middle East. Aurevant offers services including strategic planning, market entry strategies, business transformation, and brand development to drive success in competitive markets.
