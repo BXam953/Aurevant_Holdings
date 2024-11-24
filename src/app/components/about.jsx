@@ -27,16 +27,16 @@ export default function About(){
                         body="years of experience" 
                         />
                         <AboutWidget 
-                        num="30"
+                        num="30+"
                         body="Markets" 
                         />
                         <AboutWidget 
-                        num="300"
+                        num="$300m"
                         body="in Business Managed" 
                         />
                         <AboutWidget 
-                        num="24"
-                        body="years of experience" 
+                        num="15+"
+                        body="Top Global Brands" 
                         />
                         
                         
