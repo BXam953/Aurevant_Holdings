@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-  <section className="flex flex-col justify-between">
+  <section className="flex flex-col justify-between gap-10">
     
     <PageTemplate classes="h-screen" id="home">
         <Navbar className="z-100"/>
