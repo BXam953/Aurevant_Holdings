@@ -13,7 +13,7 @@ export default function Landing() {
                 <br />
                 <a
                     className="flex justify-center items-center aspect-[3] p-4 sm:p-6 bg-[#DCB64B] max-w-[10rem] sm:max-w-[12rem] rounded-md text-center text-black font-bold"
-                    href="#"
+                    href="#contact"
                 >
                     Get in Touch
                 </a>

@@ -56,7 +56,7 @@ export default function Contact() {
                     <p className="text-lg">
                         Ready to take the next step? Let’s connect and explore how we can help you achieve your goals.
                     </p>
-                    <a className="p-3 bg-yellow-500 aspect-[12/2] w-[200px] flex justify-center align-middle text-black font-bold rounded-lg" href="#">
+                    <a className="p-3 bg-yellow-500 aspect-[12/2] w-[200px] flex justify-center align-middle text-black font-bold rounded-lg" href="https://calendly.com/admin-aurevantholdings/30min" target="_blank">
                         Schedule Your Call!
                     </a>
                     <p className="text-lg">Or, Send us an Email:</p>
