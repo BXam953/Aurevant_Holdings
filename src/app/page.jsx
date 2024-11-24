@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar className="z-100"/>
         <Landing className="z-10" />
     </PageTemplate>
-    <PageTemplate classes=" min-h-screen md:min-h-screen" id="about">
+    <PageTemplate classes=" min-h-screen md:h-screen" id="about">
       <About />
     </PageTemplate>
     <PageTemplate classes="min-h-screen md:h-screen" id="services">
