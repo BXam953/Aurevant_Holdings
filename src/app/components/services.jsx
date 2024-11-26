@@ -13,7 +13,7 @@ export default function Services({chilren}){
                     the diverse needs of our clients, 
                     including:</h1>
 
-            <div className=" grid grid-cols-1 grid-rows-6 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {/* <div className=" aspect-[3/2] w-full rounded-md h-full bg-transparent border-[#DCB64B] border-2 p-5 text-lg text-yellow-500">
                     Aurevant offers a comprehensive 
                     suite of services designed to meet 
