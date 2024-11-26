@@ -19,7 +19,7 @@ export default function Home() {
     <PageTemplate classes="min-h-screen lg:h-screen" id="services">
       <Services />
     </PageTemplate>
-    <PageTemplate classes="min-h-screen md:h-screen" id="contact">
+    <PageTemplate classes="h-screen" id="contact">
       <Contact />
     </PageTemplate>
   </section>
