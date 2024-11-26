@@ -69,7 +69,7 @@ export default function Contact() {
                                 id="firstName"
                                 name="firstName"
                                 placeholder="First Name"
-                                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm placeholder:text-black text-black"
+                                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-100 focus:border-yellow-100 sm:text-sm placeholder:text-black text-black"
                                 value={formData.firstName}
                                 onChange={handleChange}
                             />
@@ -80,7 +80,7 @@ export default function Contact() {
                                 id="lastName"
                                 name="lastName"
                                 placeholder="Last Name"
-                                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm placeholder:text-black"
+                                className="mt-1 block w-full px-3 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-100 focus:border-yellow-100 sm:text-sm placeholder:text-black"
                                 value={formData.lastName}
                                 onChange={handleChange}
                             />
@@ -92,7 +92,7 @@ export default function Contact() {
                             id="email"
                             name="email"
                             placeholder="Email"
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm placeholder:text-black"
+                            className="mt-1 block w-full px-3 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-100 focus:border-yellow-100 sm:text-sm placeholder:text-black"
                             value={formData.email}
                             onChange={handleChange}
                         />
@@ -103,7 +103,7 @@ export default function Contact() {
                             id="subject"
                             name="subject"
                             placeholder="Subject"
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm placeholder:text-black"
+                            className="mt-1 block w-full px-3 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-100 focus:border-yellow-100 sm:text-sm placeholder:text-black"
                             value={formData.subject}
                             onChange={handleChange}
                         />
@@ -114,7 +114,7 @@ export default function Contact() {
                             name="body"
                             placeholder="Type your message here..."
                             rows="4"
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm placeholder:text-black h-full"
+                            className="mt-1 block w-full px-3 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-100 focus:border-yellow-100 sm:text-sm placeholder:text-black h-full"
                             value={formData.body}
                             onChange={handleChange}
                         ></textarea>
@@ -122,7 +122,7 @@ export default function Contact() {
                     <div className="mt-6 flex justify-end">
                         <button
                             type="submit"
-                            className="px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            className="px-4 py-2 bg-yellow-500 text-white font-medium rounded-md hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-100 focus:ring-offset-2"
                         >
                             Send
                         </button>
