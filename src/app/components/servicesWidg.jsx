@@ -9,7 +9,7 @@ export default function ServicesWidget({ title, body, icon: Icon }) {
         {Icon && <Icon className="text-yellow-500" size={24} />} {/* Render icon here */}
       </div>
 
-      <h2 className="text-yellow-500 text-2xl font-semibold mb-2">{title}</h2>
+      <h2 className="text-yellow-500 text-1xl font-semibold mb-2">{title}</h2>
       <p className="text-gray-300 font-thin leading-relaxed text-lg">
         {body}
       </p>

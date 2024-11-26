@@ -51,7 +51,7 @@ export default function Contact() {
     return (
         <div className="h-full w-full flex flex-col justify-between gap-10">
             <h1 className="text-3xl lg:text-4xl font-light text-white">Contact</h1>
-            <div className="h-full md:flex gap-10 md:justify-start top-0">
+            <div className="h-full lg:flex gap-10 md:justify-start top-0">
                 <div className="flex flex-col gap-10 justify-start">
                     <p className="text-lg">
                         Ready to take the next step? Let’s connect and explore how we can help you achieve your goals.
