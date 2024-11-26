@@ -7,16 +7,16 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-  <section className="flex flex-col justify-between gap-36">
+  <section className="flex flex-col justify-between gap-36 md:gap-0">
     
     <PageTemplate classes="h-screen" id="home">
         <Navbar/>
         <Landing/>
     </PageTemplate>
-    <PageTemplate classes=" min-h-screen md:h-screen" id="about">
+    <PageTemplate classes=" min-h-screen lg:h-screen" id="about">
       <About />
     </PageTemplate>
-    <PageTemplate classes="min-h-screen md:h-screen" id="services">
+    <PageTemplate classes="min-h-screen lg:h-screen" id="services">
       <Services />
     </PageTemplate>
     <PageTemplate classes="min-h-screen md:h-screen" id="contact">
