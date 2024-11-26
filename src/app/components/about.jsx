@@ -21,7 +21,7 @@ export default function About(){
             </div>
             
 
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 max-w-full">
+            <div className="grid grid-cols-2 grid-rows-2 gap-10 max-w-full">
                         <AboutWidget 
                         num="24+"
                         body="years of experience" 

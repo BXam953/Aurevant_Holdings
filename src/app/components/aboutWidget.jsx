@@ -1,10 +1,10 @@
 export default function AboutWidget(props){
     return(
-        <div className=" rounded-md aspect-square w-full h-full align-middle  flex items-center p-5 justify-between flex-col text-center bg-[rgba(19,19,19,100)] border-2 border-yellow-500">
-
-        <h1 className="text-5xl text-yellow-500">{props.num}</h1>
+        <div className="relative rounded-md aspect-square w-full h-full flex flex-col items-center justify-between text-center bg-[rgba(19,19,19,100)] border-2 border-yellow-500 p-5">
+        <h1 className="text-4xl text-yellow-500 flex-grow flex items-center justify-center">
+          {props.num}
+        </h1>
         <p className="text-sm">{props.body}</p>
-
-        </div>
+      </div>
     )
 }
