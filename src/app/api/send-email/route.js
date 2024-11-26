@@ -10,7 +10,7 @@ export async function POST(req) {
             port: 587, // or 465 for secure
             auth: {
                 user: "admin@aurevantholdings.com", // Replace with your SMTP username
-                pass: "Shailla@123!", // Replace with your SMTP password
+                pass: process.env.EMAIL_PASSWORD, // Replace with your SMTP password
             },
         });
 
