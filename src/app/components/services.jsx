@@ -49,7 +49,7 @@ export default function Services({chilren}){
                 <ServicesWidget 
                 icon={FaRegLightbulb}
                 title="Interim Management"
-                body="Choose from a range of contract options from 3 months to permanent engagement tailored to your business needs"
+                body="Choose from a range of contract options from 3 months to permanent engagement tailored to your business needs."
                 />
                 
                
