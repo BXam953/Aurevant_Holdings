@@ -16,8 +16,8 @@ export async function POST(req) {
 
         // Send the email
         await transporter.sendMail({
-            from: `"admin@aurevantholdings.com"`, // Sender address
-            to: ["admin@aurevantholdings.com", "paracha_a@yahoo.com"], 
+            from: `"adil@aurevantholdings.com"`, // Sender address
+            to: ["adil@aurevantholdings.com", "paracha_a@yahoo.com"], 
             subject: subject + " From Email: " + email,
             text: body,
         });
