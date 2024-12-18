@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "aurevantholdings.com",
+  "Id": "ede87187-7dad-4309-8295-f4669d31d6e2"
+}
